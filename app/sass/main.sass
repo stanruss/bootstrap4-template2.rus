@@ -1,0 +1,36 @@
+@import "../libs/bootstrap/scss/my-variables"
+@import "../libs/bootstrap/scss/bootstrap"
+@import "_mixins/mixins"
+@import "../css/icon-font.min.css"
+@import "fonts"
+
+html, body
+	height: 100%
+	font-size: 14px
+	body
+		min-width: 320px
+		position: relative
+		font-family: PlayfairDisplay-BlackItalic
+		color: $main-color
+		box-sizing: border-box
+		overflow-x: hidden
+		input, textarea
+			outline: none
+			&:focus:required:invalid
+				border-color: red
+				&:required:valid
+					border-color: green
+
+.clearfix
+	display: block
+	clear: both
+	content: ""
+.main-head
+	min-height: 620px
+	background-image: url(../img/5-salut.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	h1
+		text-transform: none
+@import "media" // Always at the end
