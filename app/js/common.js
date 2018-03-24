@@ -90,8 +90,10 @@
 // 		dragEndSpeed : 600
 // 	});
 
-// 	$(".section-head h2, .section-head p").animated("fadeIn");
-// 	$(".info-item-wrap").animated("zoomIn");
+	$(".answer img").animated("fadeIn");
+	$(".answer .products").animated("fadeInLeft");
+	$(".answer .products-2").animated("fadeInRight");
+	$(".answer button").animated("zoomInUp");
 // 	$(".slider .slide").animated("fadeIn");
 // 	$(".homesect.section_8 .forms").animated("fadeInRight");
 // 	$(".homesect.section_8 .p").animated("fadeIn");
