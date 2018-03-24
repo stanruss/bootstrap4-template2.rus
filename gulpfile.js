@@ -17,14 +17,15 @@ gulp.task('js', function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/bootstrap//dist/js/bootstrap.js',
 		'app/js/popper/popper.js',
-		'app/js/modernizr.js',
-		'app/js/waypoints.min.js',
-		'app/js/animate-css.js',
-		'app/js/plugins-scroll.js',
-		'app/js/jquery.equalheights.min.js',
-		'app/js/drawfillsvg.min.js',
-		'app/js/jquery.magnific-popup.min.js',
-		'app/js/owl.carousel.min.js',
+		'app/js/smooth-scroll.min.js',
+		// 'app/js/modernizr.js',
+		// 'app/js/waypoints.min.js',
+		// 'app/js/animate-css.js',
+		// 'app/js/plugins-scroll.js',
+		// 'app/js/jquery.equalheights.min.js',
+		// 'app/js/drawfillsvg.min.js',
+		// 'app/js/jquery.magnific-popup.min.js',
+		// 'app/js/owl.carousel.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

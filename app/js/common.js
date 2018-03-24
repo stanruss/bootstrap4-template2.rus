@@ -158,20 +158,20 @@
 // 		return false;
 // 	});
 
-// 	//Chrome Smooth Scroll
-// 	try {
-// 		$.browserSelector();
-// 		if($("html").hasClass("chrome")) {
-// 			$.smoothScroll();
-// 		}
-// 	} catch(err) {
+	//Chrome Smooth Scroll
+	try {
+		$.browserSelector();
+		if($("html").hasClass("chrome")) {
+			$.smoothScroll();
+		}
+	} catch(err) {
 
-// 	};
+	};
 
 // 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
 // });
-// var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new SmoothScroll('a[href*="#"]');
 // $(window).scroll(function() {
 // 	if($(window).scrollTop()>200) {
 // 		$('.fixed-top').addClass('menu-bg');
